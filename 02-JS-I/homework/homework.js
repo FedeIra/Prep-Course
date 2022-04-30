@@ -17,7 +17,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === true;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -36,25 +36,25 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  valor = x + y;   
+  return x + y;   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  valor = x - y; 
+  return x - y; 
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  valor = x * y;  
+  return x * y;  
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  valor = x / y;
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -145,13 +145,13 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return num.ceil; 
+  return Math.ceil(num); 
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return numeroRandom(Range[0,1]);
+  return Math.random()*2;
 }
 
 function esPositivo(numero) {
@@ -163,7 +163,9 @@ function esPositivo(numero) {
     return "Es positivo";
   } else if (numero < 0) {
     return "Es negativo";
-  } return false;
+  } else if (numero = 0) {
+    return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -178,20 +180,22 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre, " ",apellido;
+  string_nombres = nombre + " " + apellido;
+  return string_nombres
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola ", nombre, "!";
+  string_saludos = "Hola ", nombre, "!";
+  return string_saludos
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return areaDelTriangulo(ancho, alto);
+  return ancho* alto;
 }
 
 
@@ -205,7 +209,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  areaTriangulo = base * altura / 2;
+  return base * altura / 2;
 }
 
 
@@ -227,7 +231,7 @@ function esVocal(letra){
     return "Dato incorrecto";
 } else if (letra != "a" | "e" | "i" | "o" | "u") {
     return "Dato incorrecto";
-} return "Es vocal";
+} else {return "Es vocal";}
 }
 
 
