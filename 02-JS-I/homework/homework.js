@@ -17,7 +17,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === true;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -139,7 +139,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return num.round;
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
@@ -151,7 +151,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random()*2;
+  return Math.floor(Math.random()*2);
 }
 
 function esPositivo(numero) {
@@ -163,17 +163,14 @@ function esPositivo(numero) {
     return "Es positivo";
   } else if (numero < 0) {
     return "Es negativo";
-  } else if (numero = 0) {
-    return false;
-  }
+  } return false;
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  NuevaString = str + "!";
-  return nuevaString;
+  return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
@@ -188,8 +185,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  string_saludos = "Hola ", nombre, "!";
-  return string_saludos
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -226,12 +222,12 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
-  //Escribe tu código aquí
-  if (letra.length > 1) {
+  //Escribe tu código aquíq
+  if (letra == "a" | "e" | "i" | "o" | "u") {
+    return "Es vocal";
+  } else if (letra.length > 1) {
     return "Dato incorrecto";
-} else if (letra != "a" | "e" | "i" | "o" | "u") {
-    return "Dato incorrecto";
-} else {return "Es vocal";}
+  } return "Dato incorrecto";
 }
 
 
