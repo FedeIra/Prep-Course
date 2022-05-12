@@ -236,7 +236,7 @@ function continueStatement(numero) {
   //Guardar cada nuevo valor en un array.
   //Devolver el array
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
-  //Pista: usá el statement 'continue'
+  //Pista: usá el statement 'continue'i
   // Tu código:
   let array = [];
 
