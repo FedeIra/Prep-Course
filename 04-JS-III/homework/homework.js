@@ -212,7 +212,7 @@ function breakStatement(numero) {
   //Devolver el array
   //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y
   //devolver: "Se interrumpió la ejecución"
-  //Pista: usá el statement 'break'
+  //Pista: usá el statement 'break'i
   // Tu código:
   let iteraciones = 0;
   let array = [];
