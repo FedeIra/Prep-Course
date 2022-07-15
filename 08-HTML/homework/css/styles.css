@@ -1,0 +1,46 @@
+h1 {
+  color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  /* height: 500px;
+  width: 600px; */
+  background-color: brown;
+  padding: 50px;
+  border: thick blue dotted;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.divClass {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+body {
+  background-image: url("https://www.cocinayvino.com/wp-content/uploads/2021/04/www.cocinayvino.com-tres-platos-inusuales-para-disfrutar-los-camarones-camarones-e1619122494741-696x392.jpg");
+}
+
+.lorem {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}

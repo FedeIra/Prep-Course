@@ -5,6 +5,7 @@ Ahora que nos ha visto crear un archivo HTML y una hoja de estilo externa, crear
 ## Ejercicio I
 
 Crear un nuevo archivo dentro de la carpeta `homework` llamado `homework.html` donde deberás realizar lo siguiente:
+
 ```
 I. Cree una página HTML básica.
   A. Cree el diseño básico para una página HTML usando html, head y body.
@@ -50,13 +51,14 @@ IV. Suba su trabajo a su repositorio de github`
 ```
 
 ### Crédito adicional:
->   Para hacer los extra credits, generalmente será necesario que investigue algunas cosas por su cuenta en Internet.
 
-  * Establecer una imagen como fondo de toda la página
-  * Centrar los div en la página
-  * Centrar todos los elementos en la página
-  * [Lea sobre el posicionamiento y use la regla de posición en sus estilos](https://es.learnlayout.com/index.html)
-  * Lea sobre flexbox y use flexbox para centrar todos los elementos en la página
+> Para hacer los extra credits, generalmente será necesario que investigue algunas cosas por su cuenta en Internet.
+
+- Establecer una imagen como fondo de toda la página
+- Centrar los div en la página
+- Centrar todos los elementos en la página
+- [Lea sobre el posicionamiento y use la regla de posición en sus estilos](https://es.learnlayout.com/index.html)
+- Lea sobre flexbox y use flexbox para centrar todos los elementos en la página
 
 ## Ejercicio II
 
